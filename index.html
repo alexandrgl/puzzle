@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="puzzle.js"></script>
+  <title>15 Puzzle</title>
+</head>
+<body>
+<header>
+  <h1>15 PUZZLE</h1>
+  <p>To play use mouse or keys (&larr;, &uarr;, &rarr;, &darr;)</p>
+  <div id="exchanges"></div>
+</header>
+  <div class="container">
+    <div class="container__wrapper">
+      <div class="block flex-container" tabindex="1">
+        <div class="block__element flex-element" id="cell-0"></div>
+        <div class="block__element flex-element" id="cell-1"><span>1</span></div>
+        <div class="block__element flex-element" id="cell-2"><span>2</span></div>
+        <div class="block__element flex-element" id="cell-3"><span>3</span></div>
+        <div class="block__element flex-element" id="cell-4"><span>4</span></div>
+        <div class="block__element flex-element" id="cell-5"><span>5</span></div>
+        <div class="block__element flex-element" id="cell-6"><span>6</span></div>
+        <div class="block__element flex-element" id="cell-7"><span>7</span></div>
+        <div class="block__element flex-element" id="cell-8"><span>8</span></div>
+        <div class="block__element flex-element" id="cell-9"><span>9</span></div>
+        <div class="block__element flex-element" id="cell-10"><span>10</span></div>
+        <div class="block__element flex-element" id="cell-11"><span>11</span></div>
+        <div class="block__element flex-element" id="cell-12"><span>12</span></div>
+        <div class="block__element flex-element" id="cell-13"><span>13</span></div>
+        <div class="block__element flex-element" id="cell-14"><span>14</span></div>
+        <div class="block__element flex-element" id="cell-15"><span>15</span></div>
+      </div>
+    </div>
+  </div>
+  <button type="button" id="button-mix">Mix 15 puzzle</button>
+
+  <div id="shadow-window"></div>
+  <div id="message-window">
+    <p></p>
+    <button type="button" id="close-message">Play again</button>
+  </div>
+</body>
+</html>
